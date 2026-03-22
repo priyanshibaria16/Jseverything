@@ -1,48 +1,71 @@
-- Practice Zone
+## Practice Zone
 
-1. Declare your name and city using const , and your age using let .
+---
 
+### 1. Declare your name and city using `const`, and your age using `let`
+```js
 const name = "Priyanshi";
 const city = "Anand";
 let age = 20;
+```
 
-2. Try this and observe
+---
 
+### 2. Try this and observe
+```js
 let age = 20;
 age = 25;
 console.log(age);
-✅ Output: 25
+```
 
-3. Guess the output
+✅ Output: `25`
 
+---
+
+### 3. Guess the output
+```js
 var a = 10;
 var a = 20;
 console.log(a);
-✅ Output: 20
-✔ var allows redeclaration
+```
 
-4. const object modification
+✅ Output: `20`  
+✔ `var` allows redeclaration
 
+---
+
+### 4. `const` object modification
+```js
 const obj = { name: "Riya" };
 obj.age = 20;
 console.log(obj);
-✅ Works
-Output: { name: "Riya", age: 20 }
-✔ You can change contents
+```
+
+✅ Works  
+Output: `{ name: "Riya", age: 20 }`  
+✔ You can change contents  
 ❌ Cannot replace whole object
 
-5. Access let before declaration
+---
 
+### 5. Access `let` before declaration
+```js
 console.log(x);
 let x = 10;
-❌ Error: ReferenceError
+```
+
+❌ Error: `ReferenceError`  
 ✔ Due to TDZ (Temporal Dead Zone)
 
-6. const array change
+---
 
+### 6. `const` array change
+```js
 const arr = [1, 2];
 arr.push(3);
 console.log(arr);
-✅ Output: [1, 2, 3]
-✔ Allowed (modifying contents)
-❌ Not allowed: arr = [4,5]
+```
+
+✅ Output: `[1, 2, 3]`  
+✔ Allowed (modifying contents)  
+❌ Not allowed: `arr = [4, 5]`
