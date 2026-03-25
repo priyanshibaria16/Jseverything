@@ -182,12 +182,12 @@ function greet() {
 let a = 10;
 let b = a;
 b = 20;
-console.log(a); // 10 ✅
+console.log(a); // 10 
 
 let obj1 = { name: "A" };
 let obj2 = obj1;
 obj2.name = "B";
-console.log(obj1.name); // "B" ⚠️
+console.log(obj1.name); // "B" 
 ```
 
 ---
@@ -249,7 +249,7 @@ No type conversion
 5 === "5" // false
 ```
 
-✅ Always prefer `===`
+Always prefer `===`
 
 ---
 
@@ -274,7 +274,7 @@ typeof NaN // "number"
 - `undefined`
 - `NaN`
 
-### ✅ Truthy Values
+### Truthy Values
 
 Everything else:
 - `"0"`
@@ -286,13 +286,13 @@ Everything else:
 **Example:**
 ```js
 if ("0") {
-  console.log("Runs"); // ✔️ truthy
+  console.log("Runs"); //  truthy
 }
 ```
 
 ---
 
-## ⚠️ Important Interview Tricky Cases
+##  Important Interview Tricky Cases
 ```js
 [] == false        // true
 null == undefined  // true
@@ -301,7 +301,7 @@ NaN == NaN         // false
 
 ---
 
-## 🧠 Memory Concept (Deep Understanding)
+##  Memory Concept (Deep Understanding)
 
 **Primitive:**
 - Stored directly in stack memory
@@ -311,9 +311,9 @@ NaN == NaN         // false
 
 ---
 
-## 📌 Best Practices
+##  Best Practices
 
-- ✅ Always use `===`
-- ✅ Avoid unnecessary type coercion
-- ✅ Check types using `typeof`
-- ✅ Be careful with truthy/falsy values
+- Always use `===`
+- Avoid unnecessary type coercion
+- Check types using `typeof`
+- Be careful with truthy/falsy values
