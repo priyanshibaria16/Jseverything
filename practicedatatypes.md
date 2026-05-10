@@ -1,4 +1,4 @@
-# JavaScript Practice Zone — Complete Notes
+# JavaScript Practice Zone 
 
 ## 1. Predict the Output
 
