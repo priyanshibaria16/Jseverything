@@ -482,4 +482,3 @@ console.log(studentReport(92, 100));
 
 ---
 
-**Happy Coding! 🚀**
